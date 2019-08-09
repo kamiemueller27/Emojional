@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G9K-no-Gln">
-                                <rect key="frame" x="159" y="267" width="97" height="120"/>
+                                <rect key="frame" x="38" y="267" width="97" height="120"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="90"/>
                                 <state key="normal" title="🌳"/>
@@ -28,21 +28,61 @@
                                     <action selector="treeButtonWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="324-Qj-btp"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Did you know?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Xa-pS-eTq">
-                                <rect key="frame" x="101" y="150" width="213" height="41"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Save the environment!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Xa-pS-eTq">
+                                <rect key="frame" x="62" y="151" width="290" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Damascus" family="Damascus" pointSize="29"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OhD-FV-jRQ">
-                                <rect key="frame" x="159" y="491" width="97" height="120"/>
+                                <rect key="frame" x="38" y="432" width="97" height="120"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="90"/>
                                 <state key="normal" title="🌊"/>
                                 <connections>
                                     <action selector="oceanButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Xq7-pA-1Ty"/>
                                     <action selector="oceanButtonWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7fw-Gr-VPn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VUP-4b-zVi">
+                                <rect key="frame" x="266" y="611" width="115" height="108"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="90"/>
+                                <state key="normal" title="🐘"/>
+                                <connections>
+                                    <action selector="elephantButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="D00-SQ-18k"/>
+                                    <action selector="elephantButtonWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4zb-im-kjg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ovX-Ha-JS7">
+                                <rect key="frame" x="38" y="605" width="97" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="90"/>
+                                <state key="normal" title="☀️"/>
+                                <connections>
+                                    <action selector="sunButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9Gg-cW-3Vl"/>
+                                    <action selector="sunButtonWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VK0-qc-l8o"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="djz-X5-DXc">
+                                <rect key="frame" x="275" y="267" width="97" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="90"/>
+                                <state key="normal" title="🐳"/>
+                                <connections>
+                                    <action selector="whaleButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Aih-ET-Omn"/>
+                                    <action selector="whaleButtonWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2U7-Fw-WZB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6xI-4u-DlL">
+                                <rect key="frame" x="275" y="432" width="97" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="90"/>
+                                <state key="normal" title="🐯"/>
+                                <connections>
+                                    <action selector="carButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WVd-Ws-Sp7"/>
+                                    <action selector="carButtonWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="peY-Q3-3Wa"/>
                                 </connections>
                             </button>
                         </subviews>
